@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: fit-content;
+  &__logo {
+    &:hover {
+      cursor: pointer;
+    }
+    width: 40%;
+    margin-top: 36px;
+    @media all and (max-width: 767px) {
+      width: 260px;
+    }
+  }
+}

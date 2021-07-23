@@ -1,0 +1,37 @@
+.card {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 6px;
+  padding: 6px;
+  list-style-type: none;
+  height: 530px;
+  border: 2px solid #2b7a86;
+  border-radius: 30px;
+
+  &__info {
+    min-height: 102px;
+    background-color: #2b7a86;
+    padding: 18px 6px 18px 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    &--name {
+      padding-bottom: 3px;
+      color: aliceblue;
+      & p > span {
+        color: aliceblue;
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}

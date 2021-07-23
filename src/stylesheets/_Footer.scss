@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  color: #4d4b49;
+  font-size: 14px;
+  line-height: 32px;
+  &__link {
+    color: lighten(#4d4b49, 15%);
+    &--github {
+      color: lighten(#4d4b49, 15%);
+      text-decoration: underline;
+      text-decoration-color: #10aac2;
+    }
+  }
+}

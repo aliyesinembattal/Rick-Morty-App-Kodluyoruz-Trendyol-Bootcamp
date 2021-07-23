@@ -1,0 +1,19 @@
+.errorMessage {
+  margin-top: 36px;
+  font-size: 24px;
+  @media all and (max-width: 767px) {
+    width: 260px;
+  }
+}
+
+.noResultMessage {
+  margin-top: 6px;
+  font-size: 24px;
+  @media all and (max-width: 767px) {
+    width: 260px;
+  }
+}
+
+.errorImg {
+  width: 60%;
+}

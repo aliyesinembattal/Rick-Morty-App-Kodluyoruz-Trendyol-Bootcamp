@@ -1,0 +1,12 @@
+.detailLink {
+  line-height: 4em;
+  margin-right: -80%;
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  padding: 7px;
+  border-radius: 10px;
+  @media all and (max-width: 767px) {
+    margin-right: -50%;
+  }
+}
